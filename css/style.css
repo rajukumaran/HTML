@@ -1,0 +1,519 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+p {
+	color: #555;
+}
+img {
+	vertical-align: middle;
+}
+header {
+  max-width: 960px;
+  margin: 15px auto;
+}
+.colorgraph {
+	width: 100%;
+	background-image: url(../img/colorgraph.png);
+	height: 5px;
+	clear: both;
+	background-position: center;
+	background-size:contain;
+}
+.headerTitle {
+	font-size: 22px;
+	margin-left: 10px;
+	color: #0065a4;
+}
+
+#content {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.navBox {
+	border-radius: 5px;
+	max-width: 958px;
+	width: 100%;
+	height: 148px;
+	border-width: 1px 1px 1px 70px;
+	position: relative;
+	color: #fff;
+	margin-top: 20px;
+}
+.navBox-inner {
+	margin:0 auto;
+	width: 90%;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+.navBox-inner h2 {
+	font-family: 'Oswald',serif;
+	text-transform: uppercase;
+	font-size: 3em;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px #000;
+}
+.navBox-inner ul,li {
+	padding: 0;
+	margin: 0;
+}
+.navBox-inner li a {
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+.navBox-inner li a:hover {
+	opacity: 0.6;
+}
+.navBox-icon {
+	margin-left: -50px;
+	margin-top: 20px;
+}
+#devBox {
+	border-color:  rgb(21,108,48) rgb(21,108,48) rgb(21,108,48) rgb(21,108,48);
+	border-style: solid;
+	background-color:  rgb(31,160,70);
+}
+#delBox {
+	border-color:  #15d5ec #15d5ec #15d5ec #006985;
+	border-style: solid;
+	background-color:  #00a4b8;
+}
+#sfBox {
+	border-color:  #fc8b4d #fc8b4d #fc8b4d #d51b00;
+	border-style: solid;
+	background-color:  #e95300;
+}
+
+.subSystem {
+	width: 918px;
+	/*min-height: 400px;*/
+	margin: 0 auto;
+	border: solid 1px #c9c9c9;
+	position: relative;
+	top: -32px;
+	padding:5px 20px;
+	background: url(../img/subsys-bg.png) repeat-x top;
+	display: none;
+}
+.systemItems {
+	width: 918px;
+	margin:0 auto;
+}
+.systemItems ul {
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+}
+.sysItem {
+	width: 30%;
+	border:solid 1px #c9c9c9;
+	float: left;
+	margin:1% 1.5%;
+	min-height: 30px;
+	padding:10px;
+	position: relative;
+}
+.notesLabel {
+	margin-top: 1.5em;
+	max-width: 50%;
+}
+.notestText {
+	max-width: 50%;
+	font-size: 0.85em;
+}
+.sysItem-link {
+	position: absolute;
+	background: #c9c9c9;
+	bottom:0;
+	right: 0;
+	border-radius: 5px 0 0 0;
+	text-align: center;
+	line-height: 40px;
+	background-color: #ec008c;
+}
+.sysItem-link a {
+	display: block;
+	height: 40px;
+	width: 40px;
+	color: #fff;
+}
+.sysItem-link a:hover {
+	text-decoration: none;
+	background-color: #c70076;
+	border-radius: inherit;
+}
+.dev h3 {
+	color:#4b266c;
+}
+.del h3 {
+	color:#00a4b8;
+}
+.sf h3 {
+	color:#e95300;
+}
+.sysclose p{
+	margin-top: 0.3em;
+	color: #a5a5a5;
+	font-size: 2em;
+	cursor: pointer;
+}
+
+/*Helper Classes*/
+.shadow {
+	background: url(../img/shadow.png) no-repeat;
+	height: 32px;
+	margin: 0 auto;
+	background-size:contain;
+}
+.split-list ul{
+	float: left;
+	margin-left: 1em;
+}
+.split-list li{
+	padding-right: 2em;
+	line-height: 1.3em;
+	min-width: 120px;
+ }
+.icon-list li {
+	padding: 0 0 5px 20px;
+	display: block;
+	position: relative;
+}
+.icon-list li:before {
+	font-family: 'Glyphicons Halflings';
+	position: absolute;
+	left: 0px;
+	top:3px;
+	font-size:80%
+}
+.chevron-right li:before {
+	content: '\e080';
+}
+
+.checkmark li:before {
+	content: '\e067';
+}
+
+.arrow-right li:before {
+	content: '\e092';
+}
+.inactiveNav {
+	opacity: 0.5;
+	background: #000 !important;
+	border:solid 1px #333 !important;}
+
+/*Begin Inner Page Menu Styling*/
+.inside-nav {
+	width: 100%;
+	margin:0 auto;
+}
+#inside-devBox {
+	border-color:  #662d91;
+	background-color:  #4b266c;
+	height: 50px;
+}
+#inside-delBox {
+	border-color:  #15d5ec;
+	background-color:  #00a4b8;
+	height: 50px;
+}
+#inside-sfBox {
+	border-color:  #fc8b4d;
+	background-color:  #e95300;
+	height: 50px;
+}
+.inside-navBox {
+	width: 33%;
+	float: left;
+	margin-top:-10px;
+	position: relative;
+	border-width:1px;
+	border-style:solid;
+}
+.inside-navBox h2 {
+    color: #FFF;
+    font-size: 1.3em;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.inside-navBox h2:after {
+	content:'+';
+	font-size:2em;
+	float: right;
+	position: absolute;
+	right: 10px;
+	top: -3px;
+	color: #000;
+	opacity: 0.5
+}
+.inside-navBox h2 a {
+    color: #FFF;
+    width: 100%;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    font-family: 'Oswald';
+	text-transform: uppercase;
+}
+
+.insidePageMenu {
+	width: 100%;
+	max-width: 950px;
+	border: solid 1px #c9c9c9;
+	margin:60px auto 0;
+	position: relative;
+	left: -5px;
+	min-height: 300px;
+}
+
+.insideSysList {
+	width: 33.35%;
+	float: left;
+}
+.insideSysList ul {
+	padding: 10px 20px;
+}
+.insideSysList li {
+	list-style-type: none;
+	padding: 6px;
+	border-bottom: solid 1px #c9c9c9;
+}
+.insideSysList li:last-child {
+	border-bottom: none;
+}
+.insideSysList li:hover {
+	background: #f3f3f3;
+}
+.insideSysList li a {
+	font-size: 1.25em;
+	color: #555;
+	width: 100%;
+	display: block;
+}
+.insideSysList li a:after {
+	content: ">";
+	float: right;
+}
+.insideSysItemsList {
+	float: left;
+	width: 66.5%;
+	display: block;
+	min-height: 298px;
+	border-left: solid 1px #c9c9c9;
+	max-height: 298px;
+	overflow-y: auto;
+}
+.insideSysItemsList h3 {
+	color:#555;
+	margin:5px 0;
+	padding:3px 10px;
+	font-family: 'Oswald',sans-serif;
+	text-transform: uppercase;
+}
+.insideSysItem {
+	margin: 0;
+	padding: 10px;
+	border-bottom: solid 1px #c9c9c9;
+}
+.insideSysItem:last-child {
+	border-bottom: none;
+}
+.insideSysItem img {
+	float: left;
+	padding-right: 10px;
+}
+.insideSysItem h5 {
+	margin-top: 0;
+}
+.insideSysItem h5 a {
+	color: #555;
+	text-decoration: underline;
+	font-size: 1.1em;
+}
+
+/*Small Device Styling*/
+@media only screen and (max-width : 640px) {
+	html, body {
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 5px;
+		overflow-x: hidden;
+	}
+	.logo img {
+		max-width:275px;
+	}
+	.text-right, .pull-right, .pull-left {
+		text-align: center !important;
+		display: block;
+		float: none !important;
+	}
+	.col-xs-12 {
+		float:none !important;
+		text-align: center !important;
+	}
+	.info-icon {
+		display: none;
+	}
+	.welcomeInfo {
+		margin:1em 0 0 0;
+	}
+	.colorgraph {
+		width: 90%;
+	}
+	.navBox {
+		height: 100%;
+		min-height: 281px;
+		width: 90%;
+		border-width: 40px 1px 1px 1px;
+		margin: 1em auto 0;
+		border-radius: 0;
+	}
+	.navBox-inner {
+		padding-top: 0px;
+		padding-left: 0px;
+	}
+	.navBox-inner h2 {
+		font-size: 2em;
+	}
+	.navBox-inner li {
+		width: 100%;
+		display: block;
+		text-align: center;
+		padding: 5px 10px;
+		margin: 15px 0;
+		border:solid 1px #fff;
+		border-radius: 5px;
+	}
+	.navBox-icon {
+		margin-left: 0;
+		margin-top: -25px;
+	}
+	.navBox-icon img {
+		max-width: 50px;
+	}
+	.split-list ul {
+		float:none;
+		margin:15px 0;
+	}
+	.chevron-right li:before {
+		content: '';
+	}
+	.shadow {
+		display: none;
+	}
+	#devBox {
+		border-color:  #16062e #662d91 #662d91 #662d91;
+	}
+	#delBox {
+		border-color:  #006985 #15d5ec #15d5ec #15d5ec;
+	}
+	#sfBox {
+		border-color:  #d51b00 #fc8b4d #fc8b4d #fc8b4d;
+	}
+	.subSystem {
+		width: 90%;
+		top: 0;
+	}
+	.subSystem .col-md-6, .subSystem .col-md-12 {
+		width: 50% !important;
+		padding: 0 1em !important;
+		float: left !important;
+	}
+	.sysclose p {
+		text-align: right !important;
+	}
+	.systemItems {
+		max-width: 100%;
+	}
+	.sysItem {
+		width: 99%;
+		float:none;
+		margin: 5% auto;
+	}
+	.sysItem img {
+		max-width: 100%;
+	}
+	.subSystem .col-md-6:first-child {
+		width: 80% !important;
+	}
+	.col-md-6.sysclose {
+		width: 20% !important;
+	}
+	/*Inside Page Styling*/
+	.inside-navBox {
+		width: 90%;
+		position: relative;
+		border-width: 1px;
+		border-style: solid;
+		margin: -20px auto 20px auto;
+		float: none;
+	}
+	.insidePageMenu {
+		width: 90%;
+		border: solid 1px #c9c9c9;
+		margin: -20px auto 0;
+		overflow: hidden;
+		left: 0;
+	}
+	.insideSysList {
+		width: 100%;
+		float: none;
+	}
+	.insideSysItemsList {
+		float: none;
+		background: #f9f9f9;
+		width: 100%;
+		display: block;
+		border-left: none;
+		border-top: solid 1px #c9c9c9;
+		margin-top: -14px;
+	}
+}
+
+/*Tablet Styling*/
+@media only screen and (min-width : 641px) and (max-width : 768px) {
+	body {
+		padding: 0 10px;
+	}
+	.logo img {
+		max-width: 250px;
+	}
+	.col-md-6 {
+		float:left; !important;
+		width: 49%;
+	}
+	.text-right, .pull-right{
+		text-align: right !important;
+	}
+	.welcomeInfo p {
+		float:right;
+	}
+	.sysItem {
+		max-width: 23.5%;
+	}
+	.sysItem img {
+		max-width: 100%;
+	}
+	.subSystem {
+		max-width: 100%;
+	}
+	.split-list li {
+		text-align: left;
+		max-width: 100px;
+	}
+	.insidePageMenu {
+		width: 99%;
+		max-width: 100%;
+		border: solid 1px #c9c9c9;
+		margin: 60px auto 0;
+		position: relative;
+		min-height: 300px;
+		left: -4px;
+	}
+}

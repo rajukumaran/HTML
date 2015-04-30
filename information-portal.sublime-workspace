@@ -1,0 +1,259 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/LESS-build/LESS.sublime-build",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"tiy",
+				"Tidy CSS"
+			],
+			[
+				"tidy",
+				"Tidy CSS (Low Compression)"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"set sytax:html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rahil/Creative Cloud Files/E-Business/Information Portal/HTML",
+		"/Users/rahil/Creative Cloud Files/E-Business/Information Portal/HTML/css"
+	],
+	"file_history":
+	[
+		"/Users/rahil/Creative Cloud Files/E-Business/Information Portal/HTML/css/style.css",
+		"/Users/rahil/Creative Cloud Files/E-Business/Information Portal/HTML/index.html",
+		"/Users/rahil/Creative Cloud Files/E-Business/Information Portal/HTML/js/main.js",
+		"/Users/rahil/Creative Cloud Files/E-Business/Information Portal/HTML/content.html",
+		"/Users/rahil/Desktop/View In Browser.sublime-settings",
+		"/Users/rahil/Creative Cloud Files/E-Business/Information Portal/HTML/information-portal.sublime-project",
+		"/Users/rahil/Creative Cloud Files/Sanford/Sharpie/Migration/HTML/css/_fonts.less",
+		"/Users/rahil/Creative Cloud Files/Sanford/Sharpie/Migration/HTML/css/style.css",
+		"/Users/rahil/Library/Application Support/Sublime Text 3/Packages/User/ie9.sublime-snippet",
+		"/Users/rahil/Creative Cloud Files/Sanford/Sharpie/Migration/HTML/css/_navmenu.less",
+		"/Users/rahil/Creative Cloud Files/E-Business/404_v2/index.html",
+		"/Users/rahil/Creative Cloud Files/Sanford/Sharpie/Migration/Initial Workups/HTML/css/style.css",
+		"/Users/rahil/Creative Cloud Files/Sanford/Sharpie/Migration/HTML/css/less.css",
+		"/Users/rahil/Creative Cloud Files/Sanford/Sharpie/Migration/HTML/css/style.less",
+		"/Users/rahil/Library/Application Support/Sublime Text 3/Packages/User/html5"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".subsystem",
+			"1",
+			"dev",
+			"Dev",
+			"dev",
+			"devMarketing",
+			"Dev",
+			"dev",
+			"Dev",
+			"Marketing",
+			"devMarketing",
+			"Marketing",
+			";\">",
+			";\n",
+			"System Name",
+			"Name",
+			"System Name",
+			"system 3",
+			"system 2",
+			"system 1",
+			"javascript",
+			"system 3",
+			"system 2",
+			"system 1",
+			"System Name",
+			"System",
+			"Delivery",
+			".fadeIn('slow')",
+			".hide()",
+			".fadeIn()",
+			"mainContent",
+			";\n",
+			"497px",
+			"news",
+			"359px",
+			"blog",
+			"creations",
+			"products",
+			"home",
+			"bubble",
+			";\n",
+			"lightblue",
+			"green"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".slideDown(1500)",
+			".slideUp(1000)",
+			".fadeIn('slow')",
+			"linkblue"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "information-portal.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
